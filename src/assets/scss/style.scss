@@ -4,24 +4,69 @@
 
 
 
+
+
+
+/***********************************************************************************/
+/* DEBUG */
+
 * {
-	border: 1px solid black;
+	border: 1px dashed black;
 }
+
+.debug .jumbotrone,
+.registration,
+.courses,
+.rate,
+.instructors,
+.testimonials,
+.news,
+.bg_top_footer {
+	height: 300px;
+}
+
+.debug .call,
+.newsletter {
+	height: 150px;
+}
+
+
+/***********************************************************************************/
 
 header {
 
-	.header_top {
+	.bg_top {
 		background-color: $bg_header-footer;
 		height: 30px;
+		color: $bg_input;
 	}
+
+	.bg_bottom {
+		background-color: $bg_header-footer;
+		height: 150px;
+
+		.header_bottom {}
+
+
+	}
+
+
+
 }
 
+/***********************************************************************************/
 
-main {
-	background-color: $primary_color;
-}
+main {}
 
+/***********************************************************************************/
 
 footer {
-	background-color: $bg_input;
+
+	.bg_top_footer {
+		background-color: $bg_header-footer;
+	}
+
+	.bg_bottom_footer {
+		background-color: $dark;
+	}
 }
