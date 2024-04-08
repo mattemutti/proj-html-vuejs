@@ -18,34 +18,42 @@ export default {
 		</section>
 		<!-- Jumbotrone -->
 
-		<section class="registration ">
-			<section class="container">
-				<div class="col-6">
-					<h2>Registration</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse debitis voluptatem
-						temporibus distinctio praesentium quis velit necessitatibus voluptatum, fugit beatae labore
-						magnam eaque est ut nisi quas. Magnam, quis!</p>
+		<section class="registration">
+			<div class="container">
+				<div class="d-flex justify-content-between">
+					<div class="">
+						<h2>Registration</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse debitis voluptatem
+							temporibus distinctio praesentium quis velit necessitatibus voluptatum, fugit beatae labore
+							magnam eaque est ut nisi quas. Magnam, quis!</p>
+					</div>
+					<div class="col-6 text-center">
+						<h4 class="title_form">First Lesson Free</h4>
+						<form class="form_registration align-content-center " action="">
+							<div class="mb-3">
+								<input type="name" class="form-control" id="exampleInputName" aria-describedby=""
+									placeholder="Your Name">
+							</div>
+							<div class="mb-3">
+								<input type="email" class="form-control" id="exampleInputEmail1"
+									aria-describedby="emailHelp" placeholder="E-mail*">
+							</div>
+							<div class="mb-3">
+								<input type="name" class="form-control" id="exampleInputName" aria-describedby=""
+									placeholder="Telephone">
+							</div>
+							<div class="mb-3">
+								<input type="name" class="form-control" id="exampleInputName" aria-describedby=""
+									placeholder="Location">
+							</div>
+
+							<button type="submit"
+								class="btn btn_registration rounded-pill fw-bold text-uppercase">Request a
+								Callback</button>
+						</form>
+					</div>
 				</div>
-				<div class="position-relative form_registration">
-					<form class=" position-absolute" action="">
-						<div class="mb-3">
-							<label for="exampleInputEmail1" class="form-label">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1"
-								aria-describedby="emailHelp">
-							<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-						</div>
-						<div class="mb-3">
-							<label for="exampleInputPassword1" class="form-label">Password</label>
-							<input type="password" class="form-control" id="exampleInputPassword1">
-						</div>
-						<div class="mb-3 form-check">
-							<input type="checkbox" class="form-check-input" id="exampleCheck1">
-							<label class="form-check-label" for="exampleCheck1">Check me out</label>
-						</div>
-						<button type="submit" class="btn btn-primary">Submit</button>
-					</form>
-				</div>
-			</section>
+			</div>
 		</section>
 		<!-- Registration -->
 

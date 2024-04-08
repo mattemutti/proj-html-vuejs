@@ -120,9 +120,13 @@ main {
 	.registration {
 
 		.form_registration {
-			background-color: $lighter;
-			left: 55%;
-			bottom: 200px;
+			height: 400px;
+
+			.btn_registration {
+				background-color: $primary_color;
+				color: $bg_input;
+
+			}
 		}
 	}
 
