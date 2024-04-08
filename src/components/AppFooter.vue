@@ -7,8 +7,11 @@ export default {
 
 	<footer>
 		<div class="container">
-			<div class="footer_top">top</div>
-			<div class="footer_bottom">bottom</div>
+			<div class="row">
+
+				<div class="footer_top">top</div>
+				<div class="footer_bottom">bottom</div>
+			</div>
 		</div>
 	</footer>
 
