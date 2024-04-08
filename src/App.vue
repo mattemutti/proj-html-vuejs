@@ -28,11 +28,25 @@ export default {
 </script>
 <template>
 
-  <AppHeader />
-  <AppNavbar class="position-fixed" />
-  <!-- creare il componente nav bar -->
-  <AppMain />
-  <AppFooter />
+  <section>
+
+    <div class="position-relative">
+      <button class="demos btn text-center">
+        <i class="fa-solid fa-folder-plus"></i>
+        <div>Demos</div>
+      </button>
+      <button class="on_sale btn text-center">
+        <div class="price_green">$39</div>
+        <div>On Sale</div>
+      </button>
+    </div>
+    <!-- Button left All page -->
+
+    <AppHeader />
+    <AppNavbar class="position-fixed" />
+    <AppMain />
+    <AppFooter />
+  </section>
 
 </template>
 <style></style>

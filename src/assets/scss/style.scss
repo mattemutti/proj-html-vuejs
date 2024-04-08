@@ -33,6 +33,39 @@
 
 /***********************************************************************************/
 
+.demos,
+.on_sale {
+	position: fixed;
+	right: 20px;
+	top: 130px;
+	background-color: $lighter;
+	color: $dark;
+	height: 70px;
+	width: 70px;
+
+
+	& i {
+		font-size: 25px;
+	}
+
+	& div {
+		font-size: 12px;
+	}
+
+	.price_green {
+		color: $primary_color;
+		font-size: 25px;
+	}
+}
+
+.on_sale {
+	top: 205px;
+}
+
+
+
+/***********************************************************************************/
+
 header {
 
 	.bg_top {
