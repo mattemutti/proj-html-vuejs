@@ -5,18 +5,16 @@ export default {
 </script>
 <template>
 
-	<header>
+	<header class="debug">
+
 		<div class="bg_top">
-			<div class="container">
-				<div class="row">
-					<div class="header_top">We have a 95% successful pass rate</div>
-				</div>
-			</div>
-		</div>
-		<div class="bg_bottom">
-			<div class="container">
-				<div class="row">
-					<div class="header_bottom">bottom</div>
+			<div class="container g-0">
+				<div class="d-flex justify-content-between header_top py-1">
+					<div>We have a 95% successful pass rate</div>
+					<div>
+						<i class="fa-solid fa-phone"></i> Give us a call to book your tuition! 1-800-555-555
+					</div>
+
 				</div>
 			</div>
 		</div>

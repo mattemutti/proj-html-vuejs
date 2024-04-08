@@ -10,12 +10,11 @@
 /***********************************************************************************/
 /* DEBUG */
 
-* {
+.debug * {
 	border: 1px dashed black;
 }
 
-.debug .jumbotrone,
-.registration,
+.debug .registration,
 .courses,
 .rate,
 .instructors,
@@ -37,26 +36,59 @@ header {
 
 	.bg_top {
 		background-color: $bg_header-footer;
-		height: 30px;
+		color: $bg_input;
+
+		.header_top {
+			font-size: 15px;
+		}
+	}
+
+
+
+
+}
+
+.nav_bar {
+
+	width: 100%;
+
+	& a {
+		text-decoration: none;
+		color: $bg_input;
+		padding: 0 2rem;
+
+
+		.btn_green_nav {
+			font-size: 15px;
+		}
+
+	}
+
+	.btn_green_nav {
+		background-color: $primary_color;
 		color: $bg_input;
 	}
-
-	.bg_bottom {
-		background-color: $bg_header-footer;
-		height: 150px;
-
-		.header_bottom {}
-
-
-	}
-
 
 
 }
 
 /***********************************************************************************/
 
-main {}
+main {
+
+	.jumbotrone {
+
+		img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+
+
+
+}
 
 /***********************************************************************************/
 

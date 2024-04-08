@@ -1,5 +1,4 @@
 # Milestone 1
-
 - creare progetto, file, selezionare immagini, controllare collegamenti tra file
 - creare la macrostruttura controllando i file di stile associati
 - Man mano che si prosegue con il progetto, creare un file state condivisibile se può servire oppure delle props.
@@ -8,6 +7,7 @@
 
 - creare solo le sezioni del main per avere la struttura più definita
 
+------------------------------------------------------------------------------
 # Milestone 3
 
 - aggiornare l'header e costruirlo più fedele possibiule all'originale

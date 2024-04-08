@@ -8,6 +8,7 @@ export default {
 	<main class="debug">
 
 		<section class="jumbotrone">
+			<img src="../../public/img/homepage-hero-background.jpg" alt="">
 			<div class="container">
 				<div class="row justify-content-center">
 					Jumbotrone
@@ -16,9 +17,9 @@ export default {
 		</section>
 		<!-- Jumbotrone -->
 
-		<section class="registration">
+		<section class="registration ">
 			<section class="container">
-				<div class="row justify-content-center">
+				<div class="row justify-content-center ">
 					Registration
 				</div>
 			</section>

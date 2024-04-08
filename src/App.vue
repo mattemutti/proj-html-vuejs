@@ -2,13 +2,15 @@
 import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppNavbar from './components/AppNavbar.vue';
 
 export default {
   name: 'App',
   components: {
     AppHeader,
     AppMain,
-    AppFooter
+    AppFooter,
+    AppNavbar
 
   },
   data() {
@@ -27,6 +29,8 @@ export default {
 <template>
 
   <AppHeader />
+  <AppNavbar class="position-fixed" />
+  <!-- creare il componente nav bar -->
   <AppMain />
   <AppFooter />
 
