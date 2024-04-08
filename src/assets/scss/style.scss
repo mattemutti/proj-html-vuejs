@@ -11,6 +11,7 @@
 /* DEBUG */
 
 .debug * {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	border: 1px dashed black;
 }
 
@@ -42,10 +43,6 @@ header {
 			font-size: 15px;
 		}
 	}
-
-
-
-
 }
 
 .nav_bar {
@@ -57,19 +54,15 @@ header {
 		color: $bg_input;
 		padding: 0 2rem;
 
-
 		.btn_green_nav {
 			font-size: 15px;
 		}
-
 	}
 
 	.btn_green_nav {
 		background-color: $primary_color;
 		color: $bg_input;
 	}
-
-
 }
 
 /***********************************************************************************/
@@ -78,11 +71,17 @@ main {
 
 	.jumbotrone {
 
-		img {
-			height: 100%;
-			width: 100%;
-			object-fit: cover;
+		background-image: url(../../../public/img/homepage-hero-background.jpg);
+		height: 800px;
+
+		.title_jumbo {
+			color: $lighter;
+
+			& h1 {
+				font-size: 55px;
+			}
 		}
+
 	}
 
 

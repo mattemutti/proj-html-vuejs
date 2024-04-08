@@ -7,11 +7,12 @@ export default {
 
 	<main class="debug">
 
-		<section class="jumbotrone">
-			<img src="../../public/img/homepage-hero-background.jpg" alt="">
-			<div class="container">
-				<div class="row justify-content-center">
-					Jumbotrone
+		<section class="jumbotrone align-content-center">
+			<!-- <img src="../../public/img/homepage-hero-background.jpg" alt="" class="Position"> -->
+			<div class="container g-0">
+				<div class="title_jumbo">
+					<h1 class="fw-bolder">Drive with Avada</h1>
+					<h4>We offer the finest driving tuition money can buy</h4>
 				</div>
 			</div>
 		</section>
