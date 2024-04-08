@@ -13,6 +13,7 @@ export default {
   },
   data() {
     return {
+      message: 'By'
 
     }
   },
@@ -30,8 +31,4 @@ export default {
   <AppHeader />
 
 </template>
-<style>
-* {
-  border: 1px solid black;
-}
-</style>
+<style></style>
