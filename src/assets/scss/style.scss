@@ -15,8 +15,7 @@
 	border: 1px dashed black;
 }
 
-.debug .registration,
-.courses,
+.debug .courses,
 .rate,
 .instructors,
 .testimonials,
@@ -32,6 +31,7 @@
 
 
 /***********************************************************************************/
+/* Button on All page Left */
 
 .demos,
 .on_sale {
@@ -42,7 +42,7 @@
 	color: $dark;
 	height: 70px;
 	width: 70px;
-
+	box-shadow: 10px 5px 5px $bg_header-footer;
 
 	& i {
 		font-size: 25px;
@@ -115,6 +115,15 @@ main {
 			}
 		}
 
+	}
+
+	.registration {
+
+		.form_registration {
+			background-color: $lighter;
+			left: 55%;
+			bottom: 200px;
+		}
 	}
 
 
