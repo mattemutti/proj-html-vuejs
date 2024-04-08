@@ -5,7 +5,15 @@ export default {
 </script>
 <template>
 
-	<div> </div>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="header_top">top top top</div>
+				<div class="header_bottom">bottom</div>
+			</div>
+		</div>
+
+	</header>
 
 </template>
-<style></style>
+<style lang="scss"></style>

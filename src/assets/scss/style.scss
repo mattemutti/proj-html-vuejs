@@ -1,4 +1,5 @@
 @use './partials/variables' as *;
+@use './partials/header.scss';
 @use 'bootstrap/scss/bootstrap.scss';
 
 
@@ -7,7 +8,20 @@
 	border: 1px solid black;
 }
 
+header {
 
-body {
+	.header_top {
+		background-color: $bg_header-footer;
+		height: 30px;
+	}
+}
+
+
+main {
 	background-color: $primary_color;
+}
+
+
+footer {
+	background-color: $bg_input;
 }

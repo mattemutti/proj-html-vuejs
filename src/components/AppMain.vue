@@ -5,7 +5,12 @@ export default {
 </script>
 <template>
 
-	//codice html dell'header
+	<main>
+		<div class="container">
+			main
+
+		</div>
+	</main>
 
 </template>
 <style></style>

@@ -13,7 +13,6 @@ export default {
   },
   data() {
     return {
-      message: 'By'
 
     }
   },
@@ -27,8 +26,9 @@ export default {
 </script>
 <template>
 
-  <h1>{{ message }}</h1>
   <AppHeader />
+  <AppMain />
+  <AppFooter />
 
 </template>
 <style></style>
