@@ -1,0 +1,6 @@
+@use './partials/variables' as *;
+@use 'bootstrap/scss/bootstrap.scss';
+
+body {
+	background-color: $brand_color;
+}
