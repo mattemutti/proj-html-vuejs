@@ -18,6 +18,10 @@
 	color: $dark
 }
 
+.c_btn_courses {
+	color: $btn_courses;
+}
+
 /***********************************************************************************/
 /* DEBUG */
 
@@ -26,8 +30,7 @@
 	border: 1px dashed black;
 }
 
-.debug .courses,
-.rate,
+.debug .rate,
 .instructors,
 .testimonials,
 .news,
@@ -181,8 +184,39 @@ main {
 			& h3 {
 				font-size: 40px;
 			}
+		}
+	}
+
+	.courses {
+		background-image: url(../../../public/img/promise-background.jpg);
+		height: 450px;
+
+		.card_courses {
+			height: 350px;
+			width: 420px;
+			top: -50px;
+			left: 0px;
+			background-color: $lighter;
+			box-shadow: 10px 8px 20px 0px #8a99a4;
+
+			& img {
+				width: 80px;
+			}
 
 		}
+
+		& img {
+			width: 150px;
+
+		}
+
+		.btn_courses {
+			background-color: $primary_color;
+			color: $bg_input;
+			font-size: 16px;
+
+		}
+
 	}
 
 

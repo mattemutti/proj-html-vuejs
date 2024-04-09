@@ -44,3 +44,17 @@ Milestone: 4 - 5 - 6 - 7
 ## Giorno 3:
 
 Milestone: 6 - 7 e controlli vari
+
+
+
+
+
+
+
+domande:
+
+hover della card nella sezione instructor deve ingrandirsi quando passo con il mouse?
+
+Tutti i pulsanti devono invertire i colori come da esempio o solo quello nella foto?
+
+immagine della sezione corsi è  corrotta?

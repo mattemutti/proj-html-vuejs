@@ -98,7 +98,58 @@ export default {
 		<section class="courses">
 			<div class="container">
 				<div class="row">
-					Courses
+					<div class="col-4 position-relative">
+						<div class="col-4 position-absolute card_courses rounded">
+							<img class="position-absolute" src="../../public/img/new-corner.jpg" alt="">
+							<div class="text-center">
+								<h2 class="mt-5 pt-2">Courses</h2>
+								<p class="lh-lg p-4 c_text_light">Lorem ipsum dolor sit amet consectetur
+									adipisicing elit.
+									Quo at
+									beatae enim modi possimus
+									soluta fugiat eius a non quos, nobis similique
+								</p>
+								<button type="submit"
+									class="btn btn_courses rounded-pill fw-bold text-uppercase py-2">Request
+									a
+									Callback</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col p-4 text-center">
+						<div class="" style="">
+							<img src="../../public/img/courses-passplus-200x200.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title py-2 c_btn_courses">Pass Plus</h5>
+								<a href="#"
+									class="btn btn-outline-secondary rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
+									More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col p-4 text-center">
+						<div class="" style="">
+							<img src="../../public/img/course-intensive-200x200.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title py-2 c_btn_courses">Intensive Course</h5>
+								<a href="#"
+									class="btn btn-outline-secondary rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
+									More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col p-4 text-center">
+						<div class="" style="">
+							<img src="../../public/img/courses-instructor-200x200.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title py-2 c_btn_courses">Instructor</h5>
+								<a href="#"
+									class="btn btn-outline-secondary rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
+									More</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
