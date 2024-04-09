@@ -18,7 +18,6 @@
 	color: $dark
 }
 
-
 /***********************************************************************************/
 /* DEBUG */
 
@@ -36,8 +35,7 @@
 	height: 300px;
 }
 
-.debug .call,
-.newsletter {
+.debug .newsletter {
 	height: 150px;
 }
 
@@ -174,6 +172,18 @@ main {
 		}
 	}
 
+	.call {
+		background-image: url(../../../public/img/horizontal-cta-background.jpg);
+
+		.call_section {
+			height: 300px;
+
+			& h3 {
+				font-size: 40px;
+			}
+
+		}
+	}
 
 
 

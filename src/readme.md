@@ -16,7 +16,7 @@
 - aggiornare il jumbotrone 
 
 ------------------------------------------------------------------------------
-- sggiornare il main inserendo immagini di sfondo, card, testi...
+- aggiornare il main inserendo immagini di sfondo, card, testi...
 
 # Milestone 5 
 
