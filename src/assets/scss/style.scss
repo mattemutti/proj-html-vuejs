@@ -2,9 +2,21 @@
 @use './partials/header.scss';
 @use 'bootstrap/scss/bootstrap.scss';
 
+/***********************************************************************************/
+/* Roole */
 
 
+.c_primary {
+	color: $primary_color;
+}
 
+.c_text_light {
+	color: gray;
+}
+
+.c_text_dark {
+	color: $dark
+}
 
 
 /***********************************************************************************/
@@ -31,7 +43,7 @@
 
 
 /***********************************************************************************/
-/* Button on All page Left */
+/* Button on All page right */
 
 .demos,
 .on_sale {
@@ -118,14 +130,46 @@ main {
 	}
 
 	.registration {
+		height: 580px;
 
-		.form_registration {
-			height: 400px;
+		.text_registration {
+			height: 580px;
+		}
 
-			.btn_registration {
-				background-color: $primary_color;
-				color: $bg_input;
+		.card_form_registration {
 
+			right: 0px;
+			top: -50px;
+			background-color: $lighter;
+			box-shadow: -7px 7px 20px 0px #8a99a4;
+
+			.title_form {
+				color: $primary_color;
+
+			}
+
+			& p {
+
+				max-width: 400px;
+
+
+
+			}
+
+			.form_registration {
+				height: 400px;
+				width: 500px;
+
+				.bg_input {
+					background-color: $bg_input;
+				}
+
+				.btn_registration {
+					background-color: $primary_color;
+					color: $bg_input;
+					font-size: 16px;
+
+				}
 			}
 		}
 	}

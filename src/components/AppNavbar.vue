@@ -16,7 +16,7 @@ export default {
 						<a class="text-uppercase" href="#">About</a>
 						<a class="text-uppercase" href="#">Prices</a>
 						<a class="text-uppercase" href="#">Courses <button
-								class="btn_green_nav fw-bold">new</button></a>
+								class="btn_green_nav fw-bold rounded">new</button></a>
 						<a class="text-uppercase" href="#">Location</a>
 						<a class="text-uppercase" href="#">Blog</a>
 						<button class="btn btn-success rounded-pill fw-bold btn_green_nav px-4">BOOK NOW</button>

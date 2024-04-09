@@ -19,38 +19,54 @@ export default {
 		<!-- Jumbotrone -->
 
 		<section class="registration">
-			<div class="container">
-				<div class="d-flex justify-content-between">
-					<div class="">
-						<h2>Registration</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse debitis voluptatem
+			<div class="container g-0">
+				<div class="d-flex justify-content-between position-relative">
+					<div class="col-6 text_registration">
+						<h2 class="py-4 mt-5 ">Get Behind The Wheel</h2>
+						<p class="lh-lg c_text_light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							esse
+							debitis
+							voluptatem
 							temporibus distinctio praesentium quis velit necessitatibus voluptatum, fugit beatae labore
 							magnam eaque est ut nisi quas. Magnam, quis!</p>
+						<p class="lh-base c_text_light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							esse debitis
+							voluptatem
+							temporibus distinctio praesentium quis velit necessitatibus voluptatum, fugit beatae labore
+							magnam eaque est ut nisi quas. Magnam, quis! Lorem ipsum dolor sit amet consectetur
+							adipisicing elit. Numquam sed corrupti ducimus rem ipsa at, voluptatum vel quis nihil
+							maiores accusamus, dolores sit molestias eaque error hic! Minima, nostrum nisi.</p>
 					</div>
-					<div class="col-6 text-center">
-						<h4 class="title_form">First Lesson Free</h4>
+					<div class="text-center position-absolute card_form_registration rounded">
+						<h4 class="title_form py-4 fw-semibold">First Lesson Free!</h4>
+						<div class="px-4">
+							<p class="c_text_light">When you make a block booking with us your first lesson is included
+								free</p>
+						</div>
 						<form class="form_registration align-content-center " action="">
-							<div class="mb-3">
-								<input type="name" class="form-control" id="exampleInputName" aria-describedby=""
-									placeholder="Your Name">
+							<div class="mb-3 px-4 pb-2">
+								<input type="name" class="form-control bg_input" id="exampleInputName"
+									aria-describedby="" placeholder="Your Name">
 							</div>
-							<div class="mb-3">
-								<input type="email" class="form-control" id="exampleInputEmail1"
+							<div class="mb-3 px-4 py-2">
+								<input type="email" class="form-control bg_input" id="exampleInputEmail1"
 									aria-describedby="emailHelp" placeholder="E-mail*">
 							</div>
-							<div class="mb-3">
-								<input type="name" class="form-control" id="exampleInputName" aria-describedby=""
-									placeholder="Telephone">
+							<div class="mb-3 px-4 py-2">
+								<input type="name" class="form-control bg_input" id="exampleInputName"
+									aria-describedby="" placeholder="Telephone">
 							</div>
-							<div class="mb-3">
-								<input type="name" class="form-control" id="exampleInputName" aria-describedby=""
-									placeholder="Location">
+							<div class="mb-3 px-4 py-2">
+								<input type="name" class="form-control bg_input" id="exampleInputName"
+									aria-describedby="" placeholder="Location">
 							</div>
 
 							<button type="submit"
-								class="btn btn_registration rounded-pill fw-bold text-uppercase">Request a
+								class="btn btn_registration rounded-pill fw-bold text-uppercase px-4 mt-4 py-2">Request
+								a
 								Callback</button>
 						</form>
+						<!-- Form Registration -->
 					</div>
 				</div>
 			</div>

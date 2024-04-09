@@ -43,7 +43,7 @@ export default {
     <!-- Button left All page -->
 
     <AppHeader />
-    <AppNavbar class="position-fixed" />
+    <AppNavbar class="position-absolute" />
     <AppMain />
     <AppFooter />
   </section>
