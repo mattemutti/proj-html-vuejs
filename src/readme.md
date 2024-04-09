@@ -7,14 +7,16 @@
 
 - creare solo le sezioni del main per avere la struttura più definita
 
-------------------------------------------------------------------------------
 # Milestone 3
 
 - aggiornare l'header e costruirlo più fedele possibiule all'originale
 
 # Milestone 4 
 
-- aggiornare il jumbotrone e tutto il main inserendo immagini di sfondo, card, testi...
+- aggiornare il jumbotrone 
+
+------------------------------------------------------------------------------
+- sggiornare il main inserendo immagini di sfondo, card, testi...
 
 # Milestone 5 
 
