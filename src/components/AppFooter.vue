@@ -31,7 +31,7 @@ export default {
 						</div>
 						<div class="d-flex c_text_light py-2">
 							<div class="pe-3">
-								<i class="fa-solid fa-phone"></i>
+								<i class="fa-solid fa-phone-flip"></i>
 							</div>
 							1.800.555.6789
 						</div>
