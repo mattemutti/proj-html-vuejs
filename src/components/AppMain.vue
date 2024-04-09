@@ -299,18 +299,44 @@ export default {
 						aliquam sapiente assumenda quos sed quaerat. Aut, sit veniam.
 					</h6>
 					<h6 class="c_text_light">Sophia Johnes</h6>
-					<div class="py-4"><i class="fa-solid fa-circle"></i><i class="fa-regular fa-circle"></i><i
-							class="fa-regular fa-circle"></i><i class="fa-regular fa-circle"></i><i
-							class="fa-regular fa-circle"></i></div>
+					<div class="py-4"><i class="fa-solid fa-circle p-1"></i><i class="fa-regular fa-circle p-1"></i><i
+							class="fa-regular fa-circle p-1"></i><i class="fa-regular fa-circle p-1"></i><i
+							class="fa-regular fa-circle p-1"></i></div>
 				</div>
 			</div>
 		</section>
 		<!-- Testimonials -->
 
 		<section class="news">
-			<div class="container">
-				<div class="row">
-					News
+			<div class="container g-0 position-relative">
+				<div class="d-flex ">
+					<div class="card_news position-absolute rounded-top text-center px-3">
+						<h2 class="py-5">Latest News</h2>
+						<div class="row justify-content-center p-4 mb-4">
+							<div class="col box_latest_news text-center">
+								<img src="../../public/img/blog-choosecar-320x202.jpg" alt="">
+								<h4 class="c_primary pt-4">
+									What car to Start With?
+								</h4>
+								<div><span>February 7th, 2019 |</span><span class="c_primary">0 Comments</span></div>
+								<div class="c_text_light pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing.
+								</div>
+							</div>
+							<div class="col box_latest_news text-center">
+								<img src="../../public/img/blogpost-10and2-320x202.jpg" alt="">
+								<h4 class="c_primary pt-4">
+									Avada Driving School Expanding
+								</h4>
+								<div><span>February 7th, 2019 |</span><span class="c_primary">0 Comments</span></div>
+								<div class="c_text_light pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing.
+								</div>
+							</div>
+						</div>
+						<button class="btn btn_primary rounded-pill fw-bold text-uppercase">More From The Blog</button>
+					</div>
+					<div class="position-absolute box_news_arrow">
+						<img class="text-center " src="../../public/img/latestnews-bottom-800x70.png" alt="">
+					</div>
 				</div>
 			</div>
 		</section>
