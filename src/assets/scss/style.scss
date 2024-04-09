@@ -39,9 +39,7 @@
 	height: 300px;
 }
 
-.debug .newsletter {
-	height: 150px;
-}
+
 
 
 /***********************************************************************************/
@@ -329,9 +327,6 @@ main {
 					font-size: 12px;
 				}
 			}
-
-
-
 		}
 
 		.box_news_arrow {
@@ -341,12 +336,31 @@ main {
 			& img {
 				width: 100%;
 			}
-
 		}
 
 		& button {
 			padding: 0.5rem 2rem;
 			font-size: 14px;
+		}
+	}
+
+	/* Newsletter ********************************************/
+
+	.newsletter {
+		background-image: url(../../../public/img/newsletter_background.jpg);
+		background-size: cover;
+		height: 400px;
+
+		& input {
+			width: 600px;
+		}
+
+		& button {
+			width: 600px;
+		}
+
+		& h6 {
+			font-size: 12px;
 		}
 
 

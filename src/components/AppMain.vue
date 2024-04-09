@@ -344,8 +344,14 @@ export default {
 
 		<section class="newsletter">
 			<div class="container">
-				<div class="row">
-					Newsletter
+				<div class="row justify-content-center text-center py-5">
+					<h2 class="pb-5">Sing up to our Newsletter</h2>
+					<div class="pb-4">
+						<input type="mail" class="p-1">
+					</div>
+					<button class="btn btn_primary rounded-pill fw-bold text-uppercase">subscribe</button>
+					<h6 class="c_text_light pt-4">(We do not share your data anybody, and only use it for its intended
+						purpose)</h6>
 				</div>
 			</div>
 		</section>
