@@ -17,11 +17,11 @@
 
 - aggiornare il main inserendo immagini di sfondo, card, testi...
 
-------------------------------------------------------------------------------
 # Milestone 5 
 
 - aggiornare il footer creandolo unguale all'originale
 
+------------------------------------------------------------------------------
 # Milestone 6 
 
 - lavorare sull'hover dei pulsanti come da traccia

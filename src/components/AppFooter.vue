@@ -25,7 +25,9 @@ export default {
 							<div class="pe-3">
 								<i class="fa-solid fa-house"></i>
 							</div>
-							12345 North Main Street, NewYork, NY 555555
+							12345 North Main Street, NewYork, NY
+							555555
+
 						</div>
 						<div class="d-flex c_text_light py-2">
 							<div class="pe-3">
@@ -37,13 +39,13 @@ export default {
 							<div class="pe-3">
 								<i class="fa-regular fa-envelope"></i>
 							</div>
-							info@your-domain.com
+							<a href="" class="text-decoration-none c_text_light">info@your-domain.com</a>
 						</div>
 						<div class="d-flex c_text_light py-2">
 							<div class="pe-3">
 								<i class="fa-solid fa-link"></i>
 							</div>
-							Theme-Fusion.com
+							<a href="" class="text-decoration-none c_text_light">Theme-Fusion.com</a>
 						</div>
 					</div>
 					<div class="col">
@@ -52,27 +54,31 @@ export default {
 						</h6>
 						<div class="d-flex c_primary py-2">
 							<div class="pe-4">
-								<i class="fa-regular fa-circle-right"></i>
+								<a href="" class="text-decoration-none c_primary"><i
+										class="fa-regular fa-circle-right"></i></a>
 							</div>
-							Pass Plus
+							<a href="" class="text-decoration-none c_primary">Pass Plus</a>
 						</div>
 						<div class="d-flex c_primary py-2">
 							<div class="pe-4">
-								<i class="fa-regular fa-circle-right"></i>
+								<a href="" class="text-decoration-none c_primary"><i
+										class="fa-regular fa-circle-right"></i></a>
 							</div>
-							Intensive Course
+							<a href="" class="text-decoration-none c_primary">Intensive Course</a>
 						</div>
 						<div class="d-flex c_primary py-2">
 							<div class="pe-4">
-								<i class="fa-regular fa-circle-right"></i>
+								<a href="" class="text-decoration-none c_primary"><i
+										class="fa-regular fa-circle-right"></i></a>
 							</div>
-							Automatic
+							<a href="" class="text-decoration-none c_primary">Automatic</a>
 						</div>
 						<div class="d-flex c_primary py-2">
 							<div class="pe-4">
-								<i class="fa-regular fa-circle-right"></i>
+								<a href="" class="text-decoration-none c_primary"><i
+										class="fa-regular fa-circle-right"></i></a>
 							</div>
-							Instructor Training
+							<a href="" class="text-decoration-none c_primary">Instructor Training</a>
 						</div>
 					</div>
 					<div class="col text-center">
