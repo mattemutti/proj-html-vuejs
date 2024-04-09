@@ -32,12 +32,9 @@
 
 .debug * {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	border: 1px dashed black;
+	border: 1px dashed white;
 }
 
-.debug .bg_top_footer {
-	height: 300px;
-}
 
 
 
@@ -374,8 +371,23 @@ main {
 
 footer {
 
-	.bg_top_footer {
-		background-color: $bg_header-footer;
+	.top_footer {
+		background-image: url(../../../public/img/footer-background-color.jpg);
+		background-size: cover;
+		background-position-y: -100px;
+
+		.img_footer {
+			width: 100%;
+		}
+
+		& button {
+			padding: 0.5rem 2rem;
+			font-size: 14px;
+		}
+
+		.text_footer_top {
+			font-size: 13px;
+		}
 	}
 
 	.bottom_footer {

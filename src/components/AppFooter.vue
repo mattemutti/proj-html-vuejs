@@ -7,10 +7,81 @@ export default {
 
 	<footer class="debug">
 
-		<div class="bg_top_footer">
-			<div class="container">
-				<div class="row">
-					<div class="footer_top">top</div>
+		<div class="top_footer pt-4">
+			<div class="container p-0">
+				<div class="row py-5">
+					<div class="col">
+						<img src="../../public/img/avada-drivers-logo-1x.png" alt="">
+						<div class="c_text_light pt-4 lh-lg text_footer_top">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, consequuntur! Odio in, earum
+							atque culpa molestias et consectetur.
+						</div>
+					</div>
+					<div class="col">
+						<h6 class="text-white text-uppercase pb-4">
+							Contact Details
+						</h6>
+						<div class="d-flex c_text_light py-2 ">
+							<div class="pe-3">
+								<i class="fa-solid fa-house"></i>
+							</div>
+							12345 North Main Street, NewYork, NY 555555
+						</div>
+						<div class="d-flex c_text_light py-2">
+							<div class="pe-3">
+								<i class="fa-solid fa-phone"></i>
+							</div>
+							1.800.555.6789
+						</div>
+						<div class="d-flex c_text_light py-2">
+							<div class="pe-3">
+								<i class="fa-regular fa-envelope"></i>
+							</div>
+							info@your-domain.com
+						</div>
+						<div class="d-flex c_text_light py-2">
+							<div class="pe-3">
+								<i class="fa-solid fa-link"></i>
+							</div>
+							Theme-Fusion.com
+						</div>
+					</div>
+					<div class="col">
+						<h6 class="text-white text-uppercase pb-4">
+							Courses
+						</h6>
+						<div class="d-flex c_primary py-2">
+							<div class="pe-4">
+								<i class="fa-regular fa-circle-right"></i>
+							</div>
+							Pass Plus
+						</div>
+						<div class="d-flex c_primary py-2">
+							<div class="pe-4">
+								<i class="fa-regular fa-circle-right"></i>
+							</div>
+							Intensive Course
+						</div>
+						<div class="d-flex c_primary py-2">
+							<div class="pe-4">
+								<i class="fa-regular fa-circle-right"></i>
+							</div>
+							Automatic
+						</div>
+						<div class="d-flex c_primary py-2">
+							<div class="pe-4">
+								<i class="fa-regular fa-circle-right"></i>
+							</div>
+							Instructor Training
+						</div>
+					</div>
+					<div class="col text-center">
+						<div class="pb-4">
+							<img class="img_footer" src="../../public/img/footer-ad-grid-200x178.png" alt="">
+						</div>
+						<button class="btn btn_primary rounded-pill fw-bold text-uppercase">Book Now</button>
+					</div>
+
 				</div>
 			</div>
 		</div>
