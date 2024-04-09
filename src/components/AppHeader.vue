@@ -12,7 +12,7 @@ export default {
 				<div class="d-flex justify-content-between header_top py-1">
 					<div>We have a 95% successful pass rate</div>
 					<div>
-						<i class="fa-solid fa-phone"></i> Give us a call to book your tuition! 1-800-555-555
+						<i class="fas fa-phone"></i> Give us a call to book your tuition! 1-800-555-555
 					</div>
 
 				</div>

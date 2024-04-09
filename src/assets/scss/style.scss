@@ -30,8 +30,7 @@
 	border: 1px dashed black;
 }
 
-.debug .rate,
-.instructors,
+.debug .instructors,
 .testimonials,
 .news,
 .bg_top_footer {
@@ -130,6 +129,8 @@ main {
 
 	}
 
+	/* Registration ********************************************/
+
 	.registration {
 		height: 580px;
 
@@ -150,11 +151,7 @@ main {
 			}
 
 			& p {
-
 				max-width: 400px;
-
-
-
 			}
 
 			.form_registration {
@@ -175,6 +172,8 @@ main {
 		}
 	}
 
+	/* Call ********************************************/
+
 	.call {
 		background-image: url(../../../public/img/horizontal-cta-background.jpg);
 
@@ -187,35 +186,60 @@ main {
 		}
 	}
 
+	/* Courses ********************************************/
+
+
 	.courses {
+		height: 600px;
+
 		background-image: url(../../../public/img/promise-background.jpg);
-		height: 450px;
+		background-position: bottom;
+		background-size: cover;
+
+
+		.bg_img {}
 
 		.card_courses {
-			height: 350px;
+			height: 380px;
 			width: 420px;
 			top: -50px;
 			left: 0px;
 			background-color: $lighter;
 			box-shadow: 10px 8px 20px 0px #8a99a4;
 
+
 			& img {
 				width: 80px;
 			}
-
 		}
 
 		& img {
 			width: 150px;
-
 		}
 
 		.btn_courses {
 			background-color: $primary_color;
 			color: $bg_input;
 			font-size: 16px;
+		}
+	}
+
+	/* Rate ********************************************/
+
+
+	.rate {
+		height: 500px;
+
+		.card_rate {
+			box-shadow: 0px -8px 0px 0px $primary_color;
 
 		}
+
+		.rate_1 {
+			width: 100px;
+			height: 100px;
+		}
+
 
 	}
 

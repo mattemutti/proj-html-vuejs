@@ -56,5 +56,11 @@ domande:
 hover della card nella sezione instructor deve ingrandirsi quando passo con il mouse?
 
 Tutti i pulsanti devono invertire i colori come da esempio o solo quello nella foto?
+Tutti
 
 immagine della sezione corsi è  corrotta?
+no
+
+sezione rate i circoli intorno ai numeri devono essere dinamici o sono immagini?
+
+le due icone a sinistra sono presenti anche quando scollo?

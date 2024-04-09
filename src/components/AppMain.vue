@@ -95,7 +95,7 @@ export default {
 		</section>
 		<!-- Call -->
 
-		<section class="courses">
+		<section class="courses pt-4">
 			<div class="container">
 				<div class="row">
 					<div class="col-4 position-relative">
@@ -116,8 +116,7 @@ export default {
 							</div>
 						</div>
 					</div>
-
-					<div class="col p-4 text-center">
+					<div class="col p-4 text-center mt-4">
 						<div class="" style="">
 							<img src="../../public/img/courses-passplus-200x200.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -128,7 +127,7 @@ export default {
 							</div>
 						</div>
 					</div>
-					<div class="col p-4 text-center">
+					<div class="col p-4 text-center mt-4">
 						<div class="" style="">
 							<img src="../../public/img/course-intensive-200x200.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -139,7 +138,7 @@ export default {
 							</div>
 						</div>
 					</div>
-					<div class="col p-4 text-center">
+					<div class="col p-4 text-center  mt-4">
 						<div class="" style="">
 							<img src="../../public/img/courses-instructor-200x200.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -156,9 +155,37 @@ export default {
 		<!-- Courses -->
 
 		<section class="rate">
-			<div class="container">
-				<div class="row">
-					Rate
+			<div class="position-relative">
+				<svg class="fusion-big-triangle-candy position-absolute" xmlns="http://www.w3.org/2000/svg"
+					version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none"
+					style="fill:#e4eaed;padding:0;">
+					<path d="M-1 -1 L50 99 L101 -1 Z"></path>
+				</svg>
+			</div>
+			<div class="container g-0">
+				<div class="row text-center c_text_light">
+					<div class="col">
+						<div class="card align-items-center card_rate p-4 c_text_light" style="">
+							<div class="rate_1 text-center align-content-center">
+								95 %
+							</div>
+							<div class="text_uppercase fw-bold p-2 ">
+								Pass Rate
+							</div>
+						</div>
+
+					</div>
+					<div class="col">
+						<div class="card" style="">
+							card
+						</div>
+					</div>
+					<div class="col">
+						<div class="card" style="">
+							card
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</section>
