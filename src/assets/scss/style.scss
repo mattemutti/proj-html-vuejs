@@ -378,7 +378,9 @@ footer {
 		background-color: $bg_header-footer;
 	}
 
-	.bg_bottom_footer {
+	.bottom_footer {
 		background-color: $dark;
+		height: 150px;
+		font-size: 12px;
 	}
 }
