@@ -1,4 +1,5 @@
 <script>
+
 export default {
 	name: 'AppMain'		//nome del componente che serve per esportarlo
 }
@@ -110,9 +111,8 @@ export default {
 									soluta fugiat eius a non quos, nobis similique
 								</p>
 								<button type="submit"
-									class="btn btn_courses rounded-pill fw-bold text-uppercase py-2">Request
-									a
-									Callback</button>
+									class="btn btn_courses btn_primary rounded-pill fw-bold text-uppercase py-2 px-4">Course
+									Information</button>
 							</div>
 						</div>
 					</div>
@@ -206,9 +206,78 @@ export default {
 		<!-- Rate -->
 
 		<section class="instructors">
-			<div class="container">
-				<div class="row">
-					Instructors
+			<div class="container g-0">
+				<h2 class="mt-5">
+					Your Instructors
+				</h2>
+				<div class="row my-4 pb-4">
+					<div class="col-8">
+						<p class="p-2 c_text_light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+							cupiditate
+							quasi,
+							molestiae vitae ut, maiores impedit accusamus cum aut ducimus fugit earum modi culpa
+							tempora.</p>
+					</div>
+					<div class="col-4 text-end ">
+						<button type="submit" class="btn btn_primary rounded-pill fw-bold text-uppercase ">More
+							About Us
+						</button>
+					</div>
+				</div>
+
+				<div class="row text-center c_text_light">
+					<div class="col">
+						<div class="shadow_bottom">
+							<div class="card align-items-center card_instructor p-4 c_text_light" style="">
+								<img class="pt-4" src="../../public/img/instructor-mikehart-400x254.jpg" alt="">
+								<div class="p-3 name_instructor">
+									Mike Hart
+								</div>
+								<div class="mt-2">
+									<i class="fa-brands fa-facebook-f p-2"></i>
+									<i class="fa-brands fa-twitter p-2"></i>
+									<i class="fa-brands fa-instagram p-2"></i>
+								</div>
+								<p class="lh-lg py-3 px-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing
+									elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="shadow_bottom">
+							<div class="card align-items-center card_instructor_central p-4 c_text_light" style="">
+								<img class="pt-4" src="../../public/img/instructor-johnsmith-400x254.jpg" alt="">
+								<div class="p-3 name_instructor">
+									John Smith
+								</div>
+								<div class="mt-2">
+									<i class="fa-brands fa-facebook-f p-2"></i>
+									<i class="fa-brands fa-twitter p-2"></i>
+									<i class="fa-brands fa-instagram p-2"></i>
+								</div>
+								<p class="lh-lg py-3 px-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing
+									elit.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="shadow_bottom">
+							<div class="card align-items-center card_instructor p-4 c_text_light" style="">
+								<img class="pt-4" src="../../public/img/instructor-angelahart-400x254.jpg" alt="">
+								<div class="p-3 name_instructor">
+									Angela Hart
+								</div>
+								<div class="mt-2">
+									<i class="fa-brands fa-facebook-f p-2"></i>
+									<i class="fa-brands fa-twitter p-2"></i>
+									<i class="fa-brands fa-instagram p-2"></i>
+								</div>
+								<p class="lh-lg py-3 px-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing
+									elit.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

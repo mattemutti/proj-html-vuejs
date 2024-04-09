@@ -22,6 +22,11 @@
 	color: $btn_courses;
 }
 
+.btn_primary {
+	background-color: $primary_color;
+	color: $bg_input;
+}
+
 /***********************************************************************************/
 /* DEBUG */
 
@@ -30,8 +35,7 @@
 	border: 1px dashed black;
 }
 
-.debug .instructors,
-.testimonials,
+.debug .testimonials,
 .news,
 .bg_top_footer {
 	height: 300px;
@@ -103,11 +107,6 @@ header {
 			font-size: 15px;
 		}
 	}
-
-	.btn_green_nav {
-		background-color: $primary_color;
-		color: $bg_input;
-	}
 }
 
 /***********************************************************************************/
@@ -165,7 +164,7 @@ main {
 				.btn_registration {
 					background-color: $primary_color;
 					color: $bg_input;
-					font-size: 16px;
+					font-size: 12px;
 
 				}
 			}
@@ -214,9 +213,7 @@ main {
 		}
 
 		.btn_courses {
-			background-color: $primary_color;
-			color: $bg_input;
-			font-size: 16px;
+			font-size: 12px;
 		}
 	}
 
@@ -240,8 +237,43 @@ main {
 			height: 300px;
 			font-size: 60px;
 		}
+	}
 
+	/* Instructor ********************************************/
 
+	.instructors {
+
+		& button {
+			padding: 0.5rem 9rem;
+			font-size: 12px;
+		}
+
+		.card_instructor {
+			box-shadow: 0px -8px 0px 0px $primary_color;
+			height: 500px;
+
+			& img {
+				width: 80%;
+			}
+		}
+
+		.card_instructor_central {
+			box-shadow: 0px -8px 0px 0px $primary_color;
+			height: 530px;
+
+			& img {
+				width: 80%;
+			}
+		}
+
+		.shadow_bottom {
+			box-shadow: 0px 10px 20px 0px#8a99a4;
+		}
+
+		.name_instructor {
+			font-size: 20px;
+			color: $dark;
+		}
 	}
 
 
