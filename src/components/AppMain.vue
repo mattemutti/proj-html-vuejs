@@ -212,7 +212,8 @@ export default {
 				</h2>
 				<div class="row my-4 pb-4">
 					<div class="col-8">
-						<p class="p-2 c_text_light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+						<p class="lh-lg p-2 c_text_light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Incidunt
 							cupiditate
 							quasi,
 							molestiae vitae ut, maiores impedit accusamus cum aut ducimus fugit earum modi culpa
@@ -227,8 +228,8 @@ export default {
 
 				<div class="row text-center c_text_light">
 					<div class="col">
-						<div class="shadow_bottom">
-							<div class="card align-items-center card_instructor p-4 c_text_light" style="">
+						<div class="shadow_bottom rounded">
+							<div class="card align-items-center card_instructor p-4 c_text_light rounded" style="">
 								<img class="pt-4" src="../../public/img/instructor-mikehart-400x254.jpg" alt="">
 								<div class="p-3 name_instructor">
 									Mike Hart
@@ -245,7 +246,7 @@ export default {
 						</div>
 					</div>
 					<div class="col">
-						<div class="shadow_bottom">
+						<div class="shadow_bottom rounded">
 							<div class="card align-items-center card_instructor_central p-4 c_text_light" style="">
 								<img class="pt-4" src="../../public/img/instructor-johnsmith-400x254.jpg" alt="">
 								<div class="p-3 name_instructor">
@@ -262,7 +263,7 @@ export default {
 						</div>
 					</div>
 					<div class="col">
-						<div class="shadow_bottom">
+						<div class="shadow_bottom rounded">
 							<div class="card align-items-center card_instructor p-4 c_text_light" style="">
 								<img class="pt-4" src="../../public/img/instructor-angelahart-400x254.jpg" alt="">
 								<div class="p-3 name_instructor">
@@ -285,8 +286,22 @@ export default {
 
 		<section class="testimonials">
 			<div class="container">
-				<div class="row">
-					Testimonials
+				<div class="d-flex flex-column text-center align-items-center">
+					<div class="empty_space"></div>
+					<h2>Testimonials</h2>
+					<h6 class="pt-2 pb-5 c_text_light">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h6>
+					<img class="rounded-circle" src="../../public/img/testimonial-sophia.png " alt="">
+					<h6 class="pt-2 pb-5 c_text_light lh-lg fst-italic box_testimonials">Lorem ipsum dolor sit amet,
+						consectetur
+						adipisicing elit.
+						Commodi
+						id quisquam ipsum perferendis veritatis debitis dignissimos impedit dolorem est! Velit officiis
+						aliquam sapiente assumenda quos sed quaerat. Aut, sit veniam.
+					</h6>
+					<h6 class="c_text_light">Sophia Johnes</h6>
+					<div class="py-4"><i class="fa-solid fa-circle"></i><i class="fa-regular fa-circle"></i><i
+							class="fa-regular fa-circle"></i><i class="fa-regular fa-circle"></i><i
+							class="fa-regular fa-circle"></i></div>
 				</div>
 			</div>
 		</section>
