@@ -24,6 +24,8 @@
 ------------------------------------------------------------------------------
 # Milestone 6 
 
+- controllare nav bar background opacity da far funzionare
+
 - lavorare sull'hover dei pulsanti come da traccia
 
 # Milestone 7 
