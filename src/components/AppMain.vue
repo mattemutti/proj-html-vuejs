@@ -165,27 +165,41 @@ export default {
 			<div class="container g-0">
 				<div class="row text-center c_text_light">
 					<div class="col">
-						<div class="card align-items-center card_rate p-4 c_text_light" style="">
-							<div class="rate_1 text-center align-content-center">
-								95 %
+						<div class="shadow_bottom">
+							<div class="card align-items-center card_rate p-4 c_text_light" style="">
+								<div class="rate_1 text-center align-content-center">
+									95 %
+								</div>
+								<div class="text-uppercase fw-bold p-2 ">
+									Pass Rate
+								</div>
 							</div>
-							<div class="text_uppercase fw-bold p-2 ">
-								Pass Rate
-							</div>
-						</div>
-
-					</div>
-					<div class="col">
-						<div class="card" style="">
-							card
 						</div>
 					</div>
 					<div class="col">
-						<div class="card" style="">
-							card
+						<div class="shadow_bottom">
+							<div class="card align-items-center card_rate p-4 c_text_light" style="">
+								<div class="rate_1 text-center align-content-center">
+									100 %
+								</div>
+								<div class="text-uppercase fw-bold p-2 ">
+									Refferral Rate
+								</div>
+							</div>
 						</div>
 					</div>
-
+					<div class="col">
+						<div class="shadow_bottom">
+							<div class="card align-items-center card_rate p-4 c_text_light" style="">
+								<div class="rate_1 text-center align-content-center">
+									0 %
+								</div>
+								<div class="text-uppercase fw-bold p-2 ">
+									Accident Rate
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
