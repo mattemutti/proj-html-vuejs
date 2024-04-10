@@ -37,18 +37,19 @@
 
 
 /***********************************************************************************/
-/* Button on All page right */
+/* 2 Button right */
 
 .demos,
 .on_sale {
 	position: fixed;
 	right: 20px;
-	top: 130px;
+	top: 110px;
 	background-color: $lighter;
 	color: $dark;
 	height: 70px;
 	width: 70px;
 	box-shadow: 10px 5px 5px $bg_header-footer;
+	z-index: 1;
 
 	& i {
 		font-size: 25px;
@@ -65,18 +66,19 @@
 }
 
 .on_sale {
-	top: 205px;
+	top: 190px;
 }
 
 
 
-/***********************************************************************************/
+/* HEADER ***************************************************************************/
 
 header {
 
 	.bg_top {
 		background-color: $bg_header-footer;
 		color: $bg_input;
+		z-index: 0;
 
 		.header_top {
 			font-size: 15px;
@@ -84,9 +86,13 @@ header {
 	}
 }
 
+/* NAVBAR ***************************************************************************/
+
 .nav_bar {
 
 	width: 100%;
+	background-color: $bg_header-footer;
+	background: rgb(0 0 0 / 40%);
 
 	& a {
 		text-decoration: none;
@@ -99,7 +105,7 @@ header {
 	}
 }
 
-/***********************************************************************************/
+/** MAIN *****************************************************************************/
 
 main {
 
