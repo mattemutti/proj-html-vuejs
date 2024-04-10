@@ -21,11 +21,13 @@
 
 - aggiornare il footer creandolo unguale all'originale
 
-------------------------------------------------------------------------------
 # Milestone 6 
 
 - controllare nav bar background opacity da far funzionare
 
+- controllare angolo card adesivo courses new e renderlo rounded
+
+------------------------------------------------------------------------------
 - lavorare sull'hover dei pulsanti come da traccia
 
 # Milestone 7 

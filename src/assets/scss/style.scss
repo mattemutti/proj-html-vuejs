@@ -198,9 +198,9 @@ main {
 			background-color: $lighter;
 			box-shadow: 10px 8px 20px 0px #8a99a4;
 
-
 			& img {
 				width: 80px;
+				border-top-left-radius: 1rem;
 			}
 		}
 

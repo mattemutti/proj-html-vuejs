@@ -96,7 +96,7 @@ export default {
 			<div class="container">
 				<div class="row">
 					<div class="col-4 position-relative">
-						<div class="col-4 position-absolute card_courses rounded">
+						<div class="col-4 position-absolute card_courses rounded-4">
 							<img class="position-absolute" src="../../public/img/new-corner.jpg" alt="">
 							<div class="text-center">
 								<h2 class="mt-5 pt-2">Courses</h2>
