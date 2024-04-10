@@ -27,6 +27,12 @@
 	color: $bg_input;
 }
 
+.btn_h_green:hover {
+	color: $primary_color;
+	border: 1px solid $primary_color;
+	background: rgb(0 0 0 / 0%);
+}
+
 /***********************************************************************************/
 /* DEBUG */
 
@@ -98,11 +104,12 @@ header {
 		text-decoration: none;
 		color: $bg_input;
 		padding: 0 2rem;
-
-		.btn_green_nav {
-			font-size: 15px;
-		}
 	}
+
+	.btn_green_nav {
+		font-size: 15px;
+	}
+
 }
 
 /** MAIN *****************************************************************************/
@@ -161,7 +168,12 @@ main {
 					background-color: $primary_color;
 					color: $bg_input;
 					font-size: 12px;
+				}
 
+				.btn_registration:hover {
+					color: $primary_color;
+					border: 1px solid $primary_color;
+					background: rgb(0 0 0 / 0%);
 				}
 			}
 		}

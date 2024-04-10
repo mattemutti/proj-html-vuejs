@@ -85,7 +85,8 @@ export default {
 						<div class="pb-4">
 							<img class="img_footer" src="../../public/img/footer-ad-grid-200x178.png" alt="">
 						</div>
-						<button class="btn btn_primary rounded-pill fw-bold text-uppercase">Book Now</button>
+						<button class="btn btn_primary btn_h_green rounded-pill fw-bold text-uppercase">Book
+							Now</button>
 					</div>
 
 				</div>

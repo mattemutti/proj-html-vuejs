@@ -19,7 +19,8 @@ export default {
 								class="btn_green_nav fw-bold rounded">new</button></a>
 						<a class="text-uppercase" href="#">Location</a>
 						<a class="text-uppercase" href="#">Blog</a>
-						<button class="btn btn-success rounded-pill fw-bold btn_primary px-4">BOOK NOW</button>
+						<button class="btn btn_green_nav btn_h_green rounded-pill fw-bold btn_primary px-4">BOOK
+							NOW</button>
 					</div>
 				</div>
 			</div>

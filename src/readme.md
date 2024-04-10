@@ -27,9 +27,9 @@
 
 - controllare angolo card adesivo courses new e renderlo rounded
 
-------------------------------------------------------------------------------
 - lavorare sull'hover dei pulsanti come da traccia
 
+------------------------------------------------------------------------------
 # Milestone 7 
 
 - Controllare se i file si possono suddividere in più componenti 

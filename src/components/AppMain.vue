@@ -63,7 +63,7 @@ export default {
 							</div>
 
 							<button type="submit"
-								class="btn btn_registration rounded-pill fw-bold text-uppercase px-4 mt-4 py-2">Request
+								class="btn btn_registration btn_h_green rounded-pill fw-bold text-uppercase px-4 mt-4 py-2">Request
 								a
 								Callback</button>
 						</form>
@@ -107,7 +107,7 @@ export default {
 									soluta fugiat eius a non quos, nobis similique
 								</p>
 								<button type="submit"
-									class="btn btn_courses btn_primary rounded-pill fw-bold text-uppercase py-2 px-4">Course
+									class="btn btn_courses btn_h_green btn_primary btn_h_green rounded-pill fw-bold text-uppercase py-2 px-4">Course
 									Information</button>
 							</div>
 						</div>
@@ -118,7 +118,7 @@ export default {
 							<div class="card-body">
 								<h5 class="card-title py-2 c_btn_courses">Pass Plus</h5>
 								<a href="#"
-									class="btn btn-outline-secondary rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
+									class="btn btn-outline-secondary btn_h_green rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
 									More</a>
 							</div>
 						</div>
@@ -129,7 +129,7 @@ export default {
 							<div class="card-body">
 								<h5 class="card-title py-2 c_btn_courses">Intensive Course</h5>
 								<a href="#"
-									class="btn btn-outline-secondary rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
+									class="btn btn-outline-secondary btn_h_green rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
 									More</a>
 							</div>
 						</div>
@@ -140,7 +140,7 @@ export default {
 							<div class="card-body">
 								<h5 class="card-title py-2 c_btn_courses">Instructor</h5>
 								<a href="#"
-									class="btn btn-outline-secondary rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
+									class="btn btn-outline-secondary btn_h_green rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
 									More</a>
 							</div>
 						</div>
@@ -216,7 +216,8 @@ export default {
 							tempora.</p>
 					</div>
 					<div class="col-4 text-end ">
-						<button type="submit" class="btn btn_primary rounded-pill fw-bold text-uppercase ">More
+						<button type="submit"
+							class="btn btn_primary btn_h_green rounded-pill fw-bold text-uppercase ">More
 							About Us
 						</button>
 					</div>
@@ -328,7 +329,8 @@ export default {
 								</div>
 							</div>
 						</div>
-						<button class="btn btn_primary rounded-pill fw-bold text-uppercase">More From The Blog</button>
+						<button class="btn btn_primary btn_h_green rounded-pill fw-bold text-uppercase">More From The
+							Blog</button>
 					</div>
 					<div class="position-absolute box_news_arrow">
 						<img class="text-center " src="../../public/img/latestnews-bottom-800x70.png" alt="">
@@ -345,7 +347,7 @@ export default {
 					<div class="pb-4">
 						<input type="mail" class="p-1">
 					</div>
-					<button class="btn btn_primary rounded-pill fw-bold text-uppercase">subscribe</button>
+					<button class="btn btn_primary btn_h_green rounded-pill fw-bold text-uppercase">subscribe</button>
 					<h6 class="c_text_light pt-4">(We do not share your data anybody, and only use it for its intended
 						purpose)</h6>
 				</div>
