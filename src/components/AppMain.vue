@@ -1,7 +1,79 @@
 <script>
 
 export default {
-	name: 'AppMain'		//nome del componente che serve per esportarlo
+	name: 'AppMain',
+
+	data() {
+		return {
+
+			courses: [
+				{
+					type: 'Pass Plus',
+					img: '../../public/img/courses-passplus-200x200.jpg',
+				},
+				{
+					type: 'Intensive Course',
+					img: '../../public/img/course-intensive-200x200.jpg',
+				},
+				{
+					type: 'Instructor',
+					img: '../../public/img/courses-instructor-200x200.jpg',
+				},
+			],
+
+			rates: [
+				{
+					rate: '95 %',
+					name: 'Pass Rate',
+				},
+				{
+					rate: '100 %',
+					name: 'Refferral Rate',
+				},
+				{
+					rate: '0 %',
+					name: 'Accident Rate',
+				},
+			],
+
+			instructors: [
+				{
+					name: 'Mike Hart',
+					photo: '../../public/img/instructor-mikehart-400x254.jpg',
+					description: 'Affascinante bravo a guidare, gentile, ti metterà a tuo agio',
+				},
+				{
+					name: 'John Smith',
+					photo: '../../public/img/instructor-johnsmith-400x254.jpg',
+					description: 'John uno dei migliori per i testacoda e strade sterrate',
+				},
+				{
+					name: 'Angela Hart',
+					photo: '../../public/img/instructor-angelahart-400x254.jpg',
+					description: 'Non è la moglie di Mike e nemmeno la sorella, ma un pilota professionista che si è ritirate dalle gare ufficiali',
+				},
+			],
+
+			news: [
+				{
+					img: '../../public/img/blog-choosecar-320x202.jpg',
+					title: 'What Car to Star With?',
+					date: 'February 7th, 2019 |',
+					numbComments: 0,
+					text: 'Lorem, ipsum dolor sit amet consectetur adipisicing.',
+				},
+				{
+					img: '../../public/img/blogpost-10and2-320x202.jpg',
+					title: 'Avada Driving School Expanding',
+					date: 'February 7th, 2019 |',
+					numbComments: 2,
+					text: 'Guida guida tu che sei felice di guidare',
+				},
+			]
+
+
+		}
+	}
 }
 </script>
 <template>
@@ -112,33 +184,11 @@ export default {
 							</div>
 						</div>
 					</div>
-					<div class="col p-4 text-center mt-4">
+					<div v-for="course in courses" class="col p-4 text-center mt-4">
 						<div class="" style="">
-							<img src="../../public/img/courses-passplus-200x200.jpg" class="card-img-top" alt="...">
+							<img :src="course.img" class="card-img-top" alt="...">
 							<div class="card-body">
-								<h5 class="card-title py-2 c_btn_courses">Pass Plus</h5>
-								<a href="#"
-									class="btn btn-outline-secondary btn_h_green rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
-									More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col p-4 text-center mt-4">
-						<div class="" style="">
-							<img src="../../public/img/course-intensive-200x200.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title py-2 c_btn_courses">Intensive Course</h5>
-								<a href="#"
-									class="btn btn-outline-secondary btn_h_green rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
-									More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col p-4 text-center  mt-4">
-						<div class="" style="">
-							<img src="../../public/img/courses-instructor-200x200.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title py-2 c_btn_courses">Instructor</h5>
+								<h5 class="card-title py-2 c_btn_courses">{{ course.type }}</h5>
 								<a href="#"
 									class="btn btn-outline-secondary btn_h_green rounded-pill c_btn_courses btn_card_courses text-uppercase fw-bold">Learn
 									More</a>
@@ -160,38 +210,14 @@ export default {
 			</div>
 			<div class="container g-0">
 				<div class="row text-center c_text_light">
-					<div class="col">
+					<div v-for="rate in rates" class="col">
 						<div class="shadow_bottom rounded-4">
 							<div class="card align-items-center card_rate p-4 c_text_light" style="">
 								<div class="rate_1 text-center align-content-center">
-									95 %
+									{{ rate.rate }}
 								</div>
 								<div class="text-uppercase fw-bold p-2 ">
-									Pass Rate
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="shadow_bottom rounded-4">
-							<div class="card align-items-center card_rate p-4 c_text_light" style="">
-								<div class="rate_1 text-center align-content-center">
-									100 %
-								</div>
-								<div class="text-uppercase fw-bold p-2 ">
-									Refferral Rate
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="shadow_bottom rounded-4">
-							<div class="card align-items-center card_rate p-4 c_text_light" style="">
-								<div class="rate_1 text-center align-content-center">
-									0 %
-								</div>
-								<div class="text-uppercase fw-bold p-2 ">
-									Accident Rate
+									{{ rate.name }}
 								</div>
 							</div>
 						</div>
@@ -224,55 +250,20 @@ export default {
 				</div>
 
 				<div class="row text-center c_text_light">
-					<div class="col">
+					<div v-for="instructor in  instructors " class="col">
 						<div class="shadow_bottom rounded">
 							<div class="card align-items-center card_instructor p-4 c_text_light rounded" style="">
-								<img class="pt-4" src="../../public/img/instructor-mikehart-400x254.jpg" alt="">
+								<img class="pt-4" :src="instructor.photo" alt="">
 								<div class="p-3 name_instructor">
-									Mike Hart
+									{{ instructor.name }}
 								</div>
 								<div class="mt-2">
 									<a href="#"><i class="fa-brands fa-facebook-f p-2"></i></a>
 									<a href="#"><i class="fa-brands fa-twitter p-2"></i></a>
 									<a href="#"><i class="fa-brands fa-instagram p-2"></i></a>
 								</div>
-								<p class="lh-lg py-3 px-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing
-									elit.
+								<p class="lh-lg py-3 px-4 mt-4">{{ instructor.description }}
 								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="shadow_bottom rounded">
-							<div class="card align-items-center card_instructor_central  p-4 c_text_light" style="">
-								<img class="pt-4" src="../../public/img/instructor-johnsmith-400x254.jpg" alt="">
-								<div class="p-3 name_instructor">
-									John Smith
-								</div>
-								<div class="mt-2">
-									<a href="#"><i class="fa-brands fa-facebook-f p-2"></i></a>
-									<a href="#"><i class="fa-brands fa-twitter p-2"></i></a>
-									<a href="#"><i class="fa-brands fa-instagram p-2"></i></a>
-								</div>
-								<p class="lh-lg py-3 px-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing
-									elit.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="shadow_bottom rounded">
-							<div class="card align-items-center card_instructor p-4 c_text_light" style="">
-								<img class="pt-4" src="../../public/img/instructor-angelahart-400x254.jpg" alt="">
-								<div class="p-3 name_instructor">
-									Angela Hart
-								</div>
-								<div class="mt-2">
-									<a href="#"><i class="fa-brands fa-facebook-f p-2"></i></a>
-									<a href="#"><i class="fa-brands fa-twitter p-2"></i></a>
-									<a href="#"><i class="fa-brands fa-instagram p-2"></i></a>
-								</div>
-								<p class="lh-lg py-3 px-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing
-									elit.</p>
 							</div>
 						</div>
 					</div>
@@ -310,22 +301,14 @@ export default {
 					<div class="card_news position-absolute rounded-top text-center px-3">
 						<h2 class="py-5">Latest News</h2>
 						<div class="row justify-content-center p-4 mb-4">
-							<div class="col box_latest_news text-center">
-								<img src="../../public/img/blog-choosecar-320x202.jpg" alt="">
+							<div v-for="article in news" class="col box_latest_news text-center">
+								<img :src="article.img" alt="">
 								<h4 class="c_primary pt-4">
-									What car to Start With?
+									{{ article.title }}
 								</h4>
-								<div><span>February 7th, 2019 |</span><span class="c_primary">0 Comments</span></div>
-								<div class="c_text_light pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing.
-								</div>
-							</div>
-							<div class="col box_latest_news text-center">
-								<img src="../../public/img/blogpost-10and2-320x202.jpg" alt="">
-								<h4 class="c_primary pt-4">
-									Avada Driving School Expanding
-								</h4>
-								<div><span>February 7th, 2019 |</span><span class="c_primary">0 Comments</span></div>
-								<div class="c_text_light pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing.
+								<div><span>{{ article.date }}</span><span class="c_primary">{{ article.numbComments }}
+										Comments</span></div>
+								<div class="c_text_light pt-4">{{ article.text }}
 								</div>
 							</div>
 						</div>

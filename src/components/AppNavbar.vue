@@ -1,6 +1,8 @@
 <script>
 export default {
-	name: 'AppNavbar'		//nome del componente che serve per esportarlo
+	name: 'AppNavbar',
+
+	props: ['Home', 'About', 'Prices', 'Courses', 'Location', 'Blog']
 }
 </script>
 <template>
