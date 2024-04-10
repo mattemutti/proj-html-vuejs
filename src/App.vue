@@ -41,6 +41,10 @@ export default {
         <div>On Sale</div>
       </button>
     </div>
+
+    <div class="position-relative">
+      <a href="#home" class="pg_home btn text-center align-content-center"> <i class="fa-solid fa-angles-up"></i></a>
+    </div>
     <!-- Button left All page -->
 
     <AppHeader />

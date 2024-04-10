@@ -7,7 +7,7 @@ export default {
 
 	<header class="debug">
 
-		<div class="bg_top">
+		<div id="home" class="bg_top">
 			<div class="container g-0">
 				<div class="d-flex justify-content-between header_top py-1">
 					<div>We have a 95% successful pass rate</div>

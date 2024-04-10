@@ -48,7 +48,7 @@ export default {
 							adipisicing elit. Numquam sed corrupti ducimus rem ipsa at, voluptatum vel quis nihil
 							maiores accusamus, dolores sit molestias eaque error hic! Minima, nostrum nisi.</p>
 					</div>
-					<div class="text-center position-absolute card_form_registration rounded">
+					<div id="registration" class="text-center position-absolute card_form_registration rounded">
 						<h4 class="title_form py-4 fw-semibold">First Lesson Free!</h4>
 						<div class="px-4">
 							<p class="c_text_light">When you make a block booking with us your first lesson is included
@@ -106,7 +106,7 @@ export default {
 			<div class="container">
 				<div class="row">
 					<div class="col-4 position-relative">
-						<div class="col-4 position-absolute card_courses rounded-4">
+						<div class="col-4 position-absolute card_courses rounded-4" id="courses">
 							<img class="position-absolute" src="../../public/img/new-corner.jpg" alt="">
 							<div class="text-center">
 								<h2 class="mt-5 pt-2">Courses</h2>
@@ -233,7 +233,7 @@ export default {
 		<section class="news">
 			<div class="container g-0 position-relative">
 				<div class="d-flex ">
-					<div class="card_news position-absolute rounded-top text-center px-3">
+					<div class="card_news position-absolute rounded-top text-center px-3" id="blog">
 						<h2 class="py-5">Latest News</h2>
 						<div class="row justify-content-center p-4 mb-4">
 							<div v-for="article in state.news" class="col box_latest_news text-center">

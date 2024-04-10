@@ -47,7 +47,7 @@
 
 
 /***********************************************************************************/
-/* 2 Button right */
+/* Button right */
 
 .demos,
 .on_sale {
@@ -82,6 +82,24 @@
 .demos:hover,
 .on_sale:hover {
 	background-color: grey;
+}
+
+.pg_home {
+	position: fixed;
+	right: 80px;
+	bottom: 100px;
+	background-color: $primary_color;
+	color: $dark;
+	height: 50px;
+	width: 50px;
+	box-shadow: 10px 5px 5px $bg_header-footer;
+	z-index: 1;
+}
+
+.pg_home:hover {
+	background-color: grey;
+	color: $lighter;
+	box-shadow: 0px 0px 15px $lighter;
 }
 
 
