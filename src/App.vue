@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppNavbar from './components/AppNavbar.vue';
+import { state } from './state'
 
 export default {
   name: 'App',
@@ -15,7 +16,7 @@ export default {
   },
   data() {
     return {
-
+      state,
     }
   },
   methods: {

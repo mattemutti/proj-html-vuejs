@@ -1,75 +1,13 @@
 <script>
+import { state } from '../state';
 
 export default {
 	name: 'AppMain',
 
 	data() {
 		return {
+			state,
 
-			courses: [
-				{
-					type: 'Pass Plus',
-					img: '../../public/img/courses-passplus-200x200.jpg',
-				},
-				{
-					type: 'Intensive Course',
-					img: '../../public/img/course-intensive-200x200.jpg',
-				},
-				{
-					type: 'Instructor',
-					img: '../../public/img/courses-instructor-200x200.jpg',
-				},
-			],
-
-			rates: [
-				{
-					rate: '95 %',
-					name: 'Pass Rate',
-				},
-				{
-					rate: '100 %',
-					name: 'Refferral Rate',
-				},
-				{
-					rate: '0 %',
-					name: 'Accident Rate',
-				},
-			],
-
-			instructors: [
-				{
-					name: 'Mike Hart',
-					photo: '../../public/img/instructor-mikehart-400x254.jpg',
-					description: 'Affascinante bravo a guidare, gentile, ti metterà a tuo agio',
-				},
-				{
-					name: 'John Smith',
-					photo: '../../public/img/instructor-johnsmith-400x254.jpg',
-					description: 'John uno dei migliori per i testacoda e strade sterrate',
-				},
-				{
-					name: 'Angela Hart',
-					photo: '../../public/img/instructor-angelahart-400x254.jpg',
-					description: 'Non è la moglie di Mike e nemmeno la sorella, ma un pilota professionista che si è ritirate dalle gare ufficiali',
-				},
-			],
-
-			news: [
-				{
-					img: '../../public/img/blog-choosecar-320x202.jpg',
-					title: 'What Car to Star With?',
-					date: 'February 7th, 2019 |',
-					numbComments: 0,
-					text: 'Lorem, ipsum dolor sit amet consectetur adipisicing.',
-				},
-				{
-					img: '../../public/img/blogpost-10and2-320x202.jpg',
-					title: 'Avada Driving School Expanding',
-					date: 'February 7th, 2019 |',
-					numbComments: 2,
-					text: 'Guida guida tu che sei felice di guidare',
-				},
-			]
 
 
 		}
@@ -184,7 +122,7 @@ export default {
 							</div>
 						</div>
 					</div>
-					<div v-for="course in courses" class="col p-4 text-center mt-4">
+					<div v-for="course in state.courses" class="col p-4 text-center mt-4">
 						<div class="" style="">
 							<img :src="course.img" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -202,15 +140,15 @@ export default {
 
 		<section class="rate">
 			<div class="position-relative ">
-				<svg class="fusion-big-triangle-candy position-absolute" xmlns="http://www.w3.org/2000/svg"
-					version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none"
-					style="fill:#e4eaed;padding:0;">
+				<svg class="fusion-big-triangle-candy position-absolute bg_arrow_rate"
+					xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100"
+					preserveAspectRatio="none" style="fill:#e4eaed;padding:0;">
 					<path d="M-1 -1 L50 99 L101 -1 Z"></path>
 				</svg>
 			</div>
 			<div class="container g-0">
 				<div class="row text-center c_text_light">
-					<div v-for="rate in rates" class="col">
+					<div v-for="rate in state.rates" class="col">
 						<div class="shadow_bottom rounded-4">
 							<div class="card align-items-center card_rate p-4 c_text_light" style="">
 								<div class="rate_1 text-center align-content-center">
@@ -250,7 +188,7 @@ export default {
 				</div>
 
 				<div class="row text-center c_text_light">
-					<div v-for="instructor in  instructors " class="col">
+					<div v-for="instructor in  state.instructors " class="col">
 						<div class="shadow_bottom rounded">
 							<div class="card align-items-center card_instructor p-4 c_text_light rounded" style="">
 								<img class="pt-4" :src="instructor.photo" alt="">
@@ -278,15 +216,12 @@ export default {
 					<div class="empty_space"></div>
 					<h2>Testimonials</h2>
 					<h6 class="pt-2 pb-5 c_text_light">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h6>
-					<img class="rounded-circle" src="../../public/img/testimonial-sophia.png " alt="">
-					<h6 class="pt-2 pb-5 c_text_light lh-lg fst-italic box_testimonials">Lorem ipsum dolor sit amet,
-						consectetur
-						adipisicing elit.
-						Commodi
-						id quisquam ipsum perferendis veritatis debitis dignissimos impedit dolorem est! Velit officiis
-						aliquam sapiente assumenda quos sed quaerat. Aut, sit veniam.
-					</h6>
-					<h6 class="c_text_light">Sophia Johnes</h6>
+					<div v-for="testimonial in state.testimonials">
+						<img class="rounded-circle" :src="testimonial.photo" alt="">
+						<h6 class="pt-2 pb-5 c_text_light lh-lg fst-italic box_testimonials">{{ testimonial.comment }}
+						</h6>
+						<h6 class="c_text_light">{{ testimonial.name }}</h6>
+					</div>
 					<div class="py-4"><i class="fa-solid fa-circle p-1"></i><i class="fa-regular fa-circle p-1"></i><i
 							class="fa-regular fa-circle p-1"></i><i class="fa-regular fa-circle p-1"></i><i
 							class="fa-regular fa-circle p-1"></i></div>
@@ -301,7 +236,7 @@ export default {
 					<div class="card_news position-absolute rounded-top text-center px-3">
 						<h2 class="py-5">Latest News</h2>
 						<div class="row justify-content-center p-4 mb-4">
-							<div v-for="article in news" class="col box_latest_news text-center">
+							<div v-for="article in state.news" class="col box_latest_news text-center">
 								<img :src="article.img" alt="">
 								<h4 class="c_primary pt-4">
 									{{ article.title }}
