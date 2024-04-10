@@ -9,7 +9,7 @@ export default {
 
 	<section class="nav_bar debug">
 
-		<div class="">
+		<div>
 			<div class="container g-0">
 				<div class="d-flex justify-content-between py-4 text-center aligne-content-center text-center">
 					<img src="../../public/img/avada-drivers-logo-1x.png" alt="">

@@ -5,7 +5,6 @@
 /***********************************************************************************/
 /* Roole */
 
-
 .c_primary {
 	color: $primary_color;
 }
@@ -160,6 +159,8 @@ main {
 	.jumbotrone {
 
 		background-image: url(../../../public/img/homepage-hero-background.jpg);
+		background-position: bottom;
+		background-size: cover;
 		height: 800px;
 
 		.title_jumbo {
@@ -224,6 +225,8 @@ main {
 
 	.call {
 		background-image: url(../../../public/img/horizontal-cta-background.jpg);
+		background-position: bottom;
+		background-size: cover;
 
 		.call_section {
 			height: 300px;
@@ -258,7 +261,7 @@ main {
 		}
 
 		& img {
-			width: 150px;
+			width: 210px;
 		}
 
 		.btn_courses {
@@ -280,6 +283,38 @@ main {
 			box-shadow: 0px -8px 0px 0px $primary_color;
 			height: 400px;
 
+			.rate_1 {
+				width: 100%;
+				height: 300px;
+				font-size: 60px;
+				margin: auto;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				.progress {
+					width: 200px;
+					height: 200px;
+					border-radius: calc(infinity * 1px);
+					background: conic-gradient($primary_color calc(var(--progress) * 1%), transparent calc(var(--progress) * 1%));
+					display: flex;
+					font-size: 3rem;
+
+					.number {
+						background: $lighter;
+						width: 93%;
+						height: 93%;
+						border-radius: inherit;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						margin: auto;
+						color: grey;
+
+					}
+
+				}
+			}
 		}
 
 		.shadow_bottom:hover {
@@ -293,11 +328,6 @@ main {
 
 		}
 
-		.rate_1 {
-			width: 100%;
-			height: 300px;
-			font-size: 60px;
-		}
 	}
 
 	/* Instructor ********************************************/

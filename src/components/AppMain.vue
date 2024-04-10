@@ -8,8 +8,6 @@ export default {
 		return {
 			state,
 
-
-
 		}
 	}
 }
@@ -19,7 +17,6 @@ export default {
 	<main class="debug">
 
 		<section class="jumbotrone align-content-center">
-			<!-- <img src="../../public/img/homepage-hero-background.jpg" alt="" class="Position"> -->
 			<div class="container g-0">
 				<div class="title_jumbo">
 					<h1 class="fw-bolder">Drive with Avada</h1>
@@ -48,7 +45,13 @@ export default {
 							adipisicing elit. Numquam sed corrupti ducimus rem ipsa at, voluptatum vel quis nihil
 							maiores accusamus, dolores sit molestias eaque error hic! Minima, nostrum nisi.</p>
 					</div>
+
+
+
 					<div id="registration" class="text-center position-absolute card_form_registration rounded">
+
+
+
 						<h4 class="title_form py-4 fw-semibold">First Lesson Free!</h4>
 						<div class="px-4">
 							<p class="c_text_light">When you make a block booking with us your first lesson is included
@@ -78,6 +81,9 @@ export default {
 								Callback</button>
 						</form>
 						<!-- Form Registration -->
+
+
+
 					</div>
 				</div>
 			</div>
@@ -151,8 +157,12 @@ export default {
 					<div v-for="rate in state.rates" class="col">
 						<div class="shadow_bottom rounded-4">
 							<div class="card align-items-center card_rate p-4 c_text_light" style="">
-								<div class="rate_1 text-center align-content-center">
-									{{ rate.rate }}
+								<div class="rate_1 text-center align-content-center margin">
+									<div class="progress" style="--progress: 95">
+										<div class="number">
+											{{ rate.rate }}
+										</div>
+									</div>
 								</div>
 								<div class="text-uppercase fw-bold p-2 ">
 									{{ rate.name }}
