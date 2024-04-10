@@ -296,7 +296,7 @@ main {
 					width: 200px;
 					height: 200px;
 					border-radius: calc(infinity * 1px);
-					background: conic-gradient($primary_color calc(var(--progress) * 1%), transparent calc(var(--progress) * 1%));
+					background: conic-gradient($primary_color calc(var(--progress) * 1%), lightgrey calc(var(--progress) * 1%));
 					display: flex;
 					font-size: 3rem;
 

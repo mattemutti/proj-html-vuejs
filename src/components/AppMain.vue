@@ -154,7 +154,7 @@ export default {
 			</div>
 			<div class="container g-0">
 				<div class="row text-center c_text_light">
-					<div v-for="rate in state.rates" class="col">
+					<!-- <div v-for="rate in state.rates" class="col">
 						<div class="shadow_bottom rounded-4">
 							<div class="card align-items-center card_rate p-4 c_text_light" style="">
 								<div class="rate_1 text-center align-content-center margin">
@@ -166,6 +166,55 @@ export default {
 								</div>
 								<div class="text-uppercase fw-bold p-2 ">
 									{{ rate.name }}
+								</div>
+							</div>
+						</div>
+					</div> -->
+
+					<div class="col">
+						<div class="shadow_bottom rounded-4">
+							<div class="card align-items-center card_rate p-4 c_text_light" style="">
+								<div class="rate_1 text-center align-content-center margin">
+									<div class="progress" style="--progress: 95">
+										<div class="number">
+											95%
+										</div>
+									</div>
+								</div>
+								<div class="text-uppercase fw-bold p-2 ">
+									Pass Rate
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="shadow_bottom rounded-4">
+							<div class="card align-items-center card_rate p-4 c_text_light" style="">
+								<div class="rate_1 text-center align-content-center margin">
+									<div class="progress" style="--progress: 100">
+										<div class="number">
+											100%
+										</div>
+									</div>
+								</div>
+								<div class="text-uppercase fw-bold p-2 ">
+									Referral Rate
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="shadow_bottom rounded-4">
+							<div class="card align-items-center card_rate p-4 c_text_light" style="">
+								<div class="rate_1 text-center align-content-center margin">
+									<div class="progress" style="--progress: 0">
+										<div class="number">
+											0%
+										</div>
+									</div>
+								</div>
+								<div class="text-uppercase fw-bold p-2 ">
+									Accident Rate
 								</div>
 							</div>
 						</div>
