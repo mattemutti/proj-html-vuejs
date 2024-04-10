@@ -102,10 +102,11 @@ export default {
 						| All Rights Reserved | Powered by
 						<span class="c_primary">WordPress</span>
 					</div>
-					<div class="text-white"><i class="fa-brands fa-facebook-f p-2"></i>
-						<i class="fa-brands fa-twitter p-2"></i>
-						<i class="fa-brands fa-youtube p-2"></i>
-						<i class="fa-brands fa-instagram p-2"></i>
+					<div class="text-white">
+						<a href="#"><i class="fa-brands fa-facebook-f p-2 social"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter p-2 social"></i></a>
+						<a href="#"><i class="fa-brands fa-youtube p-2 social"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram p-2 social"></i></a>
 					</div>
 				</div>
 			</div>

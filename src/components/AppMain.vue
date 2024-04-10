@@ -151,7 +151,7 @@ export default {
 		<!-- Courses -->
 
 		<section class="rate">
-			<div class="position-relative">
+			<div class="position-relative ">
 				<svg class="fusion-big-triangle-candy position-absolute" xmlns="http://www.w3.org/2000/svg"
 					version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none"
 					style="fill:#e4eaed;padding:0;">
@@ -161,7 +161,7 @@ export default {
 			<div class="container g-0">
 				<div class="row text-center c_text_light">
 					<div class="col">
-						<div class="shadow_bottom">
+						<div class="shadow_bottom rounded-4">
 							<div class="card align-items-center card_rate p-4 c_text_light" style="">
 								<div class="rate_1 text-center align-content-center">
 									95 %
@@ -173,7 +173,7 @@ export default {
 						</div>
 					</div>
 					<div class="col">
-						<div class="shadow_bottom">
+						<div class="shadow_bottom rounded-4">
 							<div class="card align-items-center card_rate p-4 c_text_light" style="">
 								<div class="rate_1 text-center align-content-center">
 									100 %
@@ -185,7 +185,7 @@ export default {
 						</div>
 					</div>
 					<div class="col">
-						<div class="shadow_bottom">
+						<div class="shadow_bottom rounded-4">
 							<div class="card align-items-center card_rate p-4 c_text_light" style="">
 								<div class="rate_1 text-center align-content-center">
 									0 %
@@ -232,9 +232,9 @@ export default {
 									Mike Hart
 								</div>
 								<div class="mt-2">
-									<i class="fa-brands fa-facebook-f p-2"></i>
-									<i class="fa-brands fa-twitter p-2"></i>
-									<i class="fa-brands fa-instagram p-2"></i>
+									<a href="#"><i class="fa-brands fa-facebook-f p-2"></i></a>
+									<a href="#"><i class="fa-brands fa-twitter p-2"></i></a>
+									<a href="#"><i class="fa-brands fa-instagram p-2"></i></a>
 								</div>
 								<p class="lh-lg py-3 px-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing
 									elit.
@@ -244,15 +244,15 @@ export default {
 					</div>
 					<div class="col">
 						<div class="shadow_bottom rounded">
-							<div class="card align-items-center card_instructor_central p-4 c_text_light" style="">
+							<div class="card align-items-center card_instructor_central  p-4 c_text_light" style="">
 								<img class="pt-4" src="../../public/img/instructor-johnsmith-400x254.jpg" alt="">
 								<div class="p-3 name_instructor">
 									John Smith
 								</div>
 								<div class="mt-2">
-									<i class="fa-brands fa-facebook-f p-2"></i>
-									<i class="fa-brands fa-twitter p-2"></i>
-									<i class="fa-brands fa-instagram p-2"></i>
+									<a href="#"><i class="fa-brands fa-facebook-f p-2"></i></a>
+									<a href="#"><i class="fa-brands fa-twitter p-2"></i></a>
+									<a href="#"><i class="fa-brands fa-instagram p-2"></i></a>
 								</div>
 								<p class="lh-lg py-3 px-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing
 									elit.</p>
@@ -267,9 +267,9 @@ export default {
 									Angela Hart
 								</div>
 								<div class="mt-2">
-									<i class="fa-brands fa-facebook-f p-2"></i>
-									<i class="fa-brands fa-twitter p-2"></i>
-									<i class="fa-brands fa-instagram p-2"></i>
+									<a href="#"><i class="fa-brands fa-facebook-f p-2"></i></a>
+									<a href="#"><i class="fa-brands fa-twitter p-2"></i></a>
+									<a href="#"><i class="fa-brands fa-instagram p-2"></i></a>
 								</div>
 								<p class="lh-lg py-3 px-4 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing
 									elit.</p>

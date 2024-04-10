@@ -33,6 +33,10 @@
 	background: rgb(0 0 0 / 0%);
 }
 
+.card_h_zoom:hover {
+	transform: scale(1.05);
+}
+
 /***********************************************************************************/
 /* DEBUG */
 
@@ -75,6 +79,11 @@
 	top: 190px;
 }
 
+.demos:hover,
+.on_sale:hover {
+	background-color: grey;
+}
+
 
 
 /* HEADER ***************************************************************************/
@@ -104,12 +113,26 @@ header {
 		text-decoration: none;
 		color: $bg_input;
 		padding: 0 2rem;
+
+		.btn_green_nav {
+			font-size: 15px;
+			background-color: $primary_color;
+			color: $lighter;
+			margin: 0.5rem 0.5rem;
+			border: 1px solid $primary_color;
+		}
+
+		.btn_green_nav:hover {
+			color: $primary_color;
+			border: 1px solid $primary_color;
+			background: rgb(0 0 0 / 0%);
+		}
+
 	}
 
 	.btn_green_nav {
-		font-size: 15px;
+		font-size: 15px
 	}
-
 }
 
 /** MAIN *****************************************************************************/
@@ -234,10 +257,18 @@ main {
 		.card_rate {
 			box-shadow: 0px -8px 0px 0px $primary_color;
 			height: 400px;
+
+		}
+
+		.shadow_bottom:hover {
+			transform: scale(1.05);
 		}
 
 		.shadow_bottom {
 			box-shadow: 0px 10px 20px 0px#8a99a4;
+			transform: scale(1);
+			transition: all .2s linear;
+
 		}
 
 		.rate_1 {
@@ -261,19 +292,39 @@ main {
 		.card_instructor {
 			box-shadow: 0px -8px 0px 0px $primary_color;
 			height: 500px;
+			transform: scale(1);
+			transition: all .2s linear;
 
 			& img {
 				width: 80%;
 			}
+
+			& a {
+				color: gray;
+			}
+		}
+
+		.card_instructor:hover {
+			transform: scale(1.05);
 		}
 
 		.card_instructor_central {
 			box-shadow: 0px -8px 0px 0px $primary_color;
 			height: 530px;
+			transform: scale(1);
+			transition: all .2s linear;
 
 			& img {
 				width: 80%;
 			}
+
+			& a {
+				color: gray;
+			}
+		}
+
+		.card_instructor_central:hover {
+			transform: scale(1.05);
 		}
 
 		.shadow_bottom {
@@ -409,5 +460,9 @@ footer {
 		background-color: $dark;
 		height: 150px;
 		font-size: 12px;
+
+		.social {
+			color: $lighter;
+		}
 	}
 }
